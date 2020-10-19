@@ -9,8 +9,21 @@ body{
 }
 
 .item{
-  background-color: lighblue;
+  background-color: lightgray;
   padding: 10px;
   border: 1px solid red;
   text-align: center;
+  /* display: subgrid; */
+  /* display: inline-grid; */
+  display: grid;
+  grid-template: 50px 50px 50px / 50px 50px 50px;
+}
+
+.item:nth-of-type(4){
+  background-color: lightblue;
+  overflow: auto;
+}
+
+.item .item{
+  background-color: yellow;
 }
