@@ -15,9 +15,9 @@ body{
   /* grid-row-gap: 50px; */
   grid-gap: 10px;
   height: 100vh;
-  grid-template-areas: "header header" 
+  /* grid-template-areas: "header header" 
                         "left contenido"
-                        "footer footer";
+                        "footer footer"; */
 }
 
 .item{
