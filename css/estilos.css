@@ -18,6 +18,8 @@ body{
   /* grid-template-areas: "header header" 
                         "left contenido"
                         "footer footer"; */
+  grid-auto-flow: column;
+  grid-auto-columns: 200px 200px 200px 200px;
 }
 
 .item{
